@@ -232,6 +232,166 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/08/Application field in BE Synthetic biology/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chenmzh's site">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/10/08/Application field in BE Synthetic biology/" itemprop="url">Untitled</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-10-08T00:13:58-04:00">
+                2018-10-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/10/08/Application field in BE Synthetic biology/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2018/10/08/Application field in BE Synthetic biology/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Application-field-in-BE-Synthetic-biology"><a href="#Application-field-in-BE-Synthetic-biology" class="headerlink" title="Application field in BE: Synthetic biology"></a>Application field in BE: Synthetic biology</h1><p>Biological Engineering is dedicated to dealing with problems concerning real big problems like health, environment, fuels and agriculture problems from a comprehensive perspective. It’s a new cross-discipline , like a surfactant that connect existing engineering disciplines and the modern molecular life science, and synthetic biology is one of the field containing notions from EECS and materials from molecular biology. Briefly speaking, synthetic biologists consider organisms as a programmable machine, and we can use molecular technologies to engineer this machine for our specific purposes.</p>
+<p>There are several pioneer’s works which settled the foundation of synthetic biology at the beginning of the new millennium. In 2000 Michael B. Elowitz and Stanislas Leibler published their work named “A synthetic oscillatory network of transcriptional regulators” which is seen as one of the most initial attempts applying synthetic biological notions. And the work of James Collins about toggle switch has been considered as another classical design of synthetic biology.</p>
+<p>In Elowitz’s paper, they gave a quantitative description of the oscillator network designed by their hand from scratch. This network, which they termed “Repressilator”, can show the behavior of oscillation by using GFP as the reporter protein. However, it is composed of three transcriptional repressor systems unrelated to the natural biological clock. Through modeling this system, determining the functional range of key parameters and finally choosing the genes favored the oscillation, they optimized the performance of this network by using stronger promoters and efficient RBS sites with low leakiness and comparable protein and RNA decay rates. This method they used is what we called design-build-test loop nowadays, and the wonderful results showed that we have had the ability to rationally design desired genetic circuits to perform certain behavior using basic elements unrelated to the natural biological behavior.[1]</p>
+<p><img src="file:///C:/Users/User/Desktop/MIT%202018%20fall/leadership/MingzheChenDevEssay2/Image_001.jpg" alt="Figure 1: Network Diagram of Repressilator"></p>
+<center><strong>Figure 1: Network Diagram of Repressilator</strong></center>
+
+<p>Almost 20 years have passed after the publication of their work. Nowadays, the genetic circuits we can construct is becoming much more complex, and one tendency is that the object people can engineer is from simple single-cell prokaryotic system to complicated multi-cell eukaryotic system. Even in prokaryotic cells like <em>E.coli</em>, cutting-edge molecular technologies like CRISPR are used in synthetic biology to execute more complicated functions.</p>
+<p>In 2006, Prof Christopher A. Voigt published a work to engineering <em>Escherichia coli</em> to see light. His group reconstructed the phytochrome system which can react to light inside <em>E.coli</em>, the model organism that has no photoreceptors. The membrane-bound part of phytochrome system can be inactivated by the red light and activated when it is dark. But this system cannot activate gene expression directly, so they fused the membrane-bound domain with well-studied <em>E.coli</em> intracellular histidine kinase domain to regulate the expression of the reporter gene. In this way, once the engineered <em>E.coli</em> in a film sense “dark”, it would activate the expression of pigment generator-LacZ, and function as a photographic film, which they termed “bacterial photography”.[2]</p>
+<p><img src="file:///C:/Users/User/Desktop/MIT%202018%20fall/leadership/MingzheChenDevEssay2/Image_002.jpg" alt="Figure 1"></p>
+<center><strong>Figure 2: Principle and Illumination of Bacterial Photography</strong></center>
+
+<p>In 2009, Chris Voigt continued to use photoreceptor to program a group of edge-detection <em>E.coli</em>.</p>
+<p><img src="file:///C:/Users/User/Desktop/MIT%202018%20fall/leadership/MingzheChenDevEssay2/Image_003.jpg" alt="https://ars.els-cdn.com/content/image/1-s2.0-S0092867409005091-gr1.jpg"></p>
+<center><strong>Figure 3: Principle of Edge-Detection Cells</strong></center>
+
+<p>Basically, if the bacteria cannot sense light when the neighboring cells are under illumination, it indicates the light-dark edges. So Voigt programmed the cells in the light to produce the diffusible cell-to-cell communication signal molecule—3-oxohexanoyl-homoserine lactone (AHL), and if its neighbors in the dark sense the signal, they would know that they are near the edge, and then produce the reporter pigment. In this way, this logic gate inside the cells generates the pigment can be signified as ”(No light) AND (AHL)”. In general, they successfully combined the photoreceptor with the cell-to-cell communication systems to construct the much more complex regulatory circuits. Besides, the in vivo experiments results are well fitted with in silicon results, demonstrating that our understandings of these process are correct.[3]</p>
+<p>In his 2017’s paper, it seems that Prof. Voigt made an update for his 2006’s work: from black and white copy to RGB color copy. However, this time the scale and complexity of this circuit are unprecedented. By using 3 orthogonal photoreceptors, they successfully controlled the generation of 3 corresponding pigments respectively. The wavelengths of input lights are quite near the absorption band of output pigment, so the bacteria-film could record “what they see” with fidelity.</p>
+<p><img src="file:///C:/Users/User/Desktop/MIT%202018%20fall/leadership/MingzheChenDevEssay2/Image_004.jpg" alt="Figure 1"></p>
+<center><strong>Figure 4: The Illustration of RBG Photography System</strong></center>
+
+
+
+<p>The generation of corresponding pigments is regulated by T7 RNAP core. By combining with different sigma factor, T7 RNAP core can transcript different kinds of pigment-generation proteins, then “photograph” the corresponding image.</p>
+<p>This system along with CRISPRi can be used to control the arbitrary combined expressions of target genes, which widely broadens the application of this system. In the same paper, Prof Voigt applied it to redirect the flux of the bacteria metabolism by designing targeting gRNA binding with the locus of 3 enzymes in glycolysis, to produce less acetate, which is usually an unwanted chemical during bioprocess. [4]</p>
+<p>The series of works done by Prof Voigt gives synthetic biologists a handle to manipulate several parameters of biological process non-invasively and observe the behavior of bacteria instantly. Apart from research purposes, this system can also be produced as tools to deal with realistic problems. For example, if it is combined with Cell-Free Protein Synthesis (CFPS) system, we could design a tunable network which could be delivered to the environment and for more widespread applications.</p>
+<p>Reference:</p>
+<p>[1] Elowitz, M. B., &amp; Leibler, S. (2000). A synthetic oscillatory network of transcriptional regulators. Nature, 403(6767), 335.</p>
+<p>[2] Levskaya, A., Chevalier, A. A., Tabor, J. J., Simpson, Z. B., Lavery, L. A., Levy, M., … &amp; Voigt, C. A. (2005). Synthetic biology: engineering Escherichia coli to see light. Nature, 438(7067), 441.</p>
+<p>[3] Tabor, J. J., Salis, H. M., Simpson, Z. B., Chevalier, A. A., Levskaya, A., Marcotte, E. M., … &amp; Ellington, A. D. (2009). A synthetic genetic edge detection program. Cell, 137(7), 1272-1281.</p>
+<p>[4] Fernandez-Rodriguez, J., Moser, F., Song, M., &amp; Voigt, C. A. (2017). Engineering RGB color vision into Escherichia coli. Nature chemical biology, 13(7), 706.</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/06/14/国史大纲/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -263,7 +423,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-14T13:05:03+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-14T01:05:03-04:00">
                 2018-06-14
               </time>
             
@@ -416,7 +576,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-18T23:45:35+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-18T11:45:35-04:00">
                 2018-05-18
               </time>
             
@@ -594,7 +754,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-14T19:45:53+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-14T07:45:53-04:00">
                 2018-05-14
               </time>
             
@@ -726,7 +886,7 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-14T18:02:25+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-14T06:02:25-04:00">
                 2018-05-14
               </time>
             
@@ -869,7 +1029,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
