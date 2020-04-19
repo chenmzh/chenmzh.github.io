@@ -314,21 +314,21 @@
       
         
           
-            <p>#Uri Alon: 系统生物学导论–生物线路的设计原则 笔记   </p>
+            <p>#Uri Alon: 系统生物学导论–生物线路的设计原则 笔记</p>
 <p>##Chapter 1 Introduction</p>
 <p>我第一次阅读生物的教材的时候，那种感觉就像是在看一本扣人心弦的惊险小说。每一页都能带给我新的刺激。作为一个物理学家，我已习惯于研究符合精确到的数学定律的物质(<em>matter</em>)。但是细胞是一种会“翩翩起舞”的物质(<em>matter</em>)。结构自发地形成以执行复杂的生化功能，并且在他们的任务完成后，毫不费力地消失。尽管被强烈的热力学噪声所扰动，身处在一碗密集的“分子汤”中，这些分子仍能够几乎毫不出错地编码和处理着信息。这是怎么实现的？在这些生物系统上是否有着某种特别的自然法则，来帮助我们理解为何他们不同于无生命的物质？</p>
 <p>我们渴望找到自然的法则，致力于简化原理(<em>principle</em>)，但是生物的复杂程度是如此地令人震惊。每一步生化相互作用就像是早已被大自然精致地安排好，而且细胞内部包含着由上千个这样的相互作用所组成的网络。</p>
-<p>[^Every biochemical interaction is exquisitely crafted, and cells contain networks of thousands of such interactions]: 这里用的是biochemical interaction，而不是biochemical reaction</p>
+<p>(<em>Every biochemical interaction is exquisitely crafted, and cells contain networks of thousands of such interactions:这里用的是biochemical interaction，而不是biochemical reaction</em>)</p>
 <p>这些网络是通过随机突变和自然选择压力下生物体进化的结果。因此，这些被进化筛选出来的网络结构，在某种程度上，依赖于历史的机遇 (historical chance)，同时充斥着生化反应的细节，在每一个案例中，都需要对这些生化反应进行特别的描述。</p>
 <p>尽管如此复杂，科学家们已经尝试去分辨出一些在生物学的历史上都能适用的原理。这项搜索工作仍然在进行并且远远没有完成。实验技术的进步所提供的新的细节以及关于生物相互作用网络的综合性的信息使得这成为可能。</p>
 <p>这些研究导向规则的发现：使研究人员可以确实地公式化适用于生物网络的通用规则。(<em>formulate general laws that apply for biological networks</em> ) 因为生物网络已经被进化出去行使某种功能，因此很难说它是随机形成的或者是杂乱无章的。它有着定义良好的，能让整个系统顺利运转的特征。尽管进化是通过随机的修修补补来发挥作用的，但是通过一次又一次的进化，最终能收敛到一个被清晰定义的回路元件的集合，而这个集合符合某种通用的设计原则。</p>
-<p>这本书的目的是强调生物系统设计的几个原则，并且提供一个数学的框架来使用这些原则理解生物网络。关键点在于，生物系统蕴含着内在的简洁性。尽管进化的目的是为了行使功能，而使人理解，但这些简化的原则却可以使生物学设计变得易于理解。<!--这里讲的是自然界鬼斧神差的设计，但是我们也可以运用这些原理巧夺天工来创造新的回路--></p>
+<p>这本书的目的是强调生物系统设计的几个原则，并且提供一个数学的框架来使用这些原则理解生物网络。关键点在于，生物系统蕴含着内在的简洁性。尽管进化的目的是为了行使功能，而使人理解，但这些简化的原则却可以使生物学设计变得易于理解。(<em>这里讲的是自然界鬼斧神差的设计，但是我们也可以运用这些原理巧夺天工来创造新的回路</em>)</p>
 <p>这本书是为有一定数学基础的学生写作的。尽管我们会提及一些已经被充分研究过的生物学系统，来论证关键的原理，但我们会避免提及一些特定的术语和基因的名称。这本书提供了一种通过基于数学原理来研究系统生物学的思路，而不强调实验技术。这些例子是作者所熟悉的。其他的思路可以在本书每一章节末尾所列出的出处，和本书末尾的延伸读物中找到。</p>
 <p>在这本书中数学模型的目的不是为了精确地复现实验数据，而是为了提供一种对通用原则的直觉性的理解。这是物理学中“理想模型”的艺术：一种用简单的等式就能抓住自然现象的某种本质的信念。 因此这本书中的数学描述是被简化了的，以便于能够在黑板上或者在不大的纸张上解决。我们将会看到这样一种相当有效的问法, “为什么系统是被设计成这种样子的”，并且尝试利用简化的模型去回答这个问题。</p>
 <p>让我们通过对各个章节的总览来总结下导论部分。这本书的第一部分是解决转录调控网络。网络的各个元件和他们的动力学模型将会被描述。我们将会看到这些网络是由一个个重复出现的简单的图样(<em>repeating recurrences of simple patterns</em>)所组成的，这些图样被叫做网络模体(<em>network motif</em>)。这些组建模块回路在不同系统中被进化一次又一次地重新发现。在其他生物网络中更多网路模体，例如信号传导网络和神经元网络，也会被讨论到。关键点在于，生物系统展现出某种内在的简化性，他们都在使用或者组合一些相当小的基础的建筑模块回路来完成特定的计算任务。</p>
 <p>本书的第二部分聚焦在鲁棒性原理上：生物回路被设计成其基本的功能应当对在回路内部元件上的自然出现的扰动不敏感。尽管许多回路设计在文章中可以表现得很好，但是我们将看到只有很少的系统可以在细胞形式功能时有良好的鲁棒性。这些鲁棒的回路很少是非泛型和特殊的，大部分在美学上是令人愉悦的。我们将会使用鲁棒性原理来理解设计良好的回路的细节，包括细菌的趋化性和果蝇发育过程中的图案形成。</p>
 <p>最后一部分章节描述了有现实的进化优化如何被用来理解优化回路设计，以及动力学检查如何可以最小化生物信息处理过程中制造的错误。</p>
-<p>这些生物系统的特征，小的网络模体几何的重复使用，对元件容忍度的鲁棒性，以及限制性的优化设计，也可以在一个完全不同的语境中找到：人类工程师设计的系统。生物系统与工程化系统有着额外的相同的特征，比如模块性和层次性设计。这些相似性暗示着他们可以在一个更深的层次上统一我们对于进化和理性设计的理解。<!--These features of biological systems, reuse of a small set of network motifs, robustness to componenet tolerances, and contrained optimal design, are also found in a completely different context: systems designed by human engineers. Biological systems have additional fearures in a common with engineered systems, such as modularity and hierarchical design. These similarities hits at a deeper theory that can unify our understanding of evolved and designed systems.--></p>
+<p>这些生物系统的特征，小的网络模体几何的重复使用，对元件容忍度的鲁棒性，以及限制性的优化设计，也可以在一个完全不同的语境中找到：人类工程师设计的系统。生物系统与工程化系统有着额外的相同的特征，比如模块性和层次性设计。这些相似性暗示着他们可以在一个更深的层次上统一我们对于进化和理性设计的理解。(<em>These features of biological systems, reuse of a small set of network motifs, robustness to component tolerances, and constrained optimal design, are also found in a completely different context: systems designed by human engineers. Biological systems have additional features in a common with engineered systems, such as modularity and hierarchical design. These similarities hits at a deeper theory that can unify our understanding of evolved and designed systems.</em>)</p>
 <p>这就是导论部分的内容。一个专业术语的词汇表附在了本书的最后，并且在每一章的内容之后，我们提供了一些带解答的练习题，其中有更多的没有在正文部分讨论的细节。我希望你们能够享受阅读这本书的过程。</p>
 <blockquote>
 <p>Future reading</p>
